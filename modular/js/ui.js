@@ -63,9 +63,9 @@ function generateMarkerCards() {
 
 // Descarga un marcador individual
 function downloadMarker(url, name) {
-    const link     = document.createElement('a');
-    link.href      = url;
-    link.download  = `AR_Marker_${name}.png`;
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `AR_Marker_${name}.png`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

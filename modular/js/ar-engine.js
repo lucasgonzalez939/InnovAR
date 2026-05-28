@@ -218,10 +218,14 @@ async function initAR() {
             OverconstrainedError: 'Las restricciones de la cámara no son compatibles.'
         };
 
-        const detail = messages[error.name]
-            || (error.message.includes('not supported')
-                ? 'Tu navegador no soporta el acceso a la cámara.'
-                : `Error: ${error.message}`);
+        let detail = messages[error.name];
+        if (!detail) {
+            if (error.message.includes('not supported')) {
+                detail = 'Tu navegador no soporta el acceso a la cámara.';
+            } else {
+                detail = `Error: ${error.message}`;
+            }
+        }
 
         const errorMsg = document.createElement('div');
         errorMsg.style.cssText = `
