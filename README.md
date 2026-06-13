@@ -1,6 +1,6 @@
 # 🚀 Exploradores del Espacio AR
 
-¡Bienvenido a **Exploradores del Espacio AR**! Una aplicación web de Realidad Aumentada (WebAR) diseñada para que los niños exploren planetas en 3D de una manera divertida y educativa.
+¡Bienvenido a **Exploradores AR**! Una aplicación web de Realidad Aumentada (WebAR) diseñada para que los niños exploren planetas en 3D de una manera divertida y educativa.
 
 ![WebAR](https://img.shields.io/badge/WebAR-Ready-success)
 ![A-Frame](https://img.shields.io/badge/A--Frame-1.3.0-red)
@@ -8,7 +8,7 @@
 
 ## ✨ Características
 
-- 🌍 **Exploración Espacial**: Visualiza planetas como Marte y Júpiter en 3D.
+- 🌍 **Exploración virtual**: Visualiza planetas como Marte y Júpiter o animales y modelos en 3D.
 - 📸 **Sin Instalación**: Funciona directamente en el navegador web (Chrome, Safari, Firefox).
 - 🖨️ **Marcadores Múltiples**: Soporta múltiples marcadores simultáneamente.
 - 🎨 **Interfaz Amigable**: Diseño limpio y fácil de usar, perfecto para niños.
