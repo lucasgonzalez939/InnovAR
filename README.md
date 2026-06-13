@@ -1,4 +1,4 @@
-# 🚀 Exploradores del Espacio AR
+# 🚀 Exploradores AR
 
 ¡Bienvenido a **Exploradores AR**! Una aplicación web de Realidad Aumentada (WebAR) diseñada para que los niños exploren planetas en 3D de una manera divertida y educativa.
 
